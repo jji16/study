@@ -190,4 +190,3 @@ git push
 Git 기본 흐름
 
 작업 -> git add -> git commit -> git push -> 원격 저장소(GitHub)
-ff
