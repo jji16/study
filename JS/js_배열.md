@@ -76,7 +76,7 @@ const studentNames = students.map(student => student.name);
 ## 4. filter / find / some / every
 
 ### 핵심 개념
-| 메소드 | 기능 | 반환값 |
+| 메소드    | 기능                                         | 반환값                  |
 |----------|---------------------------------------------|-------------------------|
 | `filter` | 조건을 통과하는 **모든** 요소를 모아 새 배열 반환 | 배열 (없으면 빈 배열 `[]`) |
 | `find`   | 조건을 통과하는 **첫 번째** 요소 하나를 반환     | 요소 또는 `undefined`     |
@@ -197,12 +197,12 @@ const createUser = (id, name) => ({ id: id, name: name }); // 객체 반환 시 
 
 ##  요약
 
-| 주제 | 핵심 키워드 |
-|------------------------|---------------------------------------------|
-| 배열 기초               | 인덱스, length, Array.isArray                |
-| 배열 메소드              | push/pop, unshift/shift, indexOf, includes |
-| forEach/map            | 순회 vs 새 배열 생성                          |
-| filter/find/some/every | 조건 필터링, 검색, 진위 판별                   |
+| 주제                     | 핵심 키워드                                    |
+|-------------------------|----------------------------------------------|
+| 배열 기초                | 인덱스, length, Array.isArray                 |
+| 배열 메소드              | push/pop, unshift/shift, indexOf, includes   |
+| forEach/map            | 순회 vs 새 배열 생성                           |
+| filter/find/some/every | 조건 필터링, 검색, 진위 판별                    |
 | sort/reduce            | 정렬, 누적 계산                               |
 | String                 | trim, 대소문자, slice, split, 체이닝          |
 | Math                   | 반올림/내림/올림, random                      |
